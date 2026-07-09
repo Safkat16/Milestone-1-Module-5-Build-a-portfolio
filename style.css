@@ -1,0 +1,213 @@
+nav{
+    /* background-color: #8e8e8e; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   max-width: 1200px;
+   margin: auto;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width:500px;
+    align-items: center;
+    
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+nav h2{
+    font-size:45px;
+    font-family:sans-serif;
+    font-weight: 800;
+}
+.logo{
+    color:#fd6e0a;
+
+}
+.common-button{
+    background-color: #fd6e0a;
+    font-size:22px;
+    /* width:150px;
+    height:64px; */
+    font-weight:bold;
+    color:white;
+    padding: 4px 8px;
+    border-radius:12px;
+    border:none;
+
+}
+.outline-button{
+    background-color:white;
+    font-size:20px;
+    font-weight:700px;
+    /* width:150px;
+    height:64px; */
+    font-weight:bold;
+    color: #fd6e0a;
+    padding: 4px 8px;
+    border-radius:12px;
+    border:1px solid #fd6e0a;
+
+}
+.navlist{
+    font-size:25px ;
+    
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    ;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-content{
+    width:585px;
+    height:356px;
+}
+.hero-intro{
+    font-size:25px;
+}
+.hero-name{
+    font-size:50px;
+
+    line-height: 1.2;
+    font-weight: 700;
+}
+.hero-button{
+    display: inline-block;
+    margin-right:20px;
+}
+.hero-button:last-child{
+    margin-right:0;
+}
+.info-section{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+     padding:80px;
+     background-color:#fff8f3;
+     margin-top:20px;
+
+}
+.info-section p{
+    font-family: "Open Sans", sans-serif;
+}
+.info-flex{
+    display: flex;
+    justify-content:space-between;
+    gap:8px;
+    width:1082px;
+    margin-left:80px;
+}
+
+.whatido{
+    margin-top:20px;
+    text-align:center;
+    max-width:1200px;
+    margin:auto;
+    font-family: "Open Sans", sans-serif;
+
+
+}
+.do-card{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card{
+    border:1px solid white;
+    border-radius:5px;
+    background-color: #dbbdbd;
+    padding:15px;
+}
+.summary{
+    text-align: center;
+    margin-top:60px;
+    margin-bottom:100px;
+}
+.gallery{
+    max-width:1200px;
+    margin:auto;
+    display: grid;
+    gap:20px;
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-rows: 250px;
+    grid-template-areas:
+    "one two three"
+    "one five six"
+    "four five six";
+    ;
+}
+.gallery img{
+    height: 100%;
+    width:100%;
+    object-fit:cover;
+}
+.box-1{
+    grid-area: one;
+    transition: transform 0.3s ease; /* Makes the transition smooth */
+}
+.box-1:hover{
+    transform: scale3D(.8,.8,1);
+}
+.box-2{
+    grid-area: two;
+    transition: transform 0.3s ease;
+
+}
+.box-2:hover{
+    transform: scale3D(.8,.8,1);
+}
+.box-3{
+    grid-area: three;
+    transition: transform 0.3s ease;
+
+}
+.box-3:hover{
+    transform: scale3D(.8,.8,1);
+}
+
+.box-4{
+    grid-area: four;
+    transition: transform 0.3s ease;
+
+}
+.box-4:hover{
+    transform: scale3D(.8,.8,1);
+}
+.box-5{
+    grid-area: five;
+        transition: transform 0.3s ease;
+
+}
+.box-6{
+    grid-area: six;
+    transition: transform 0.3s;
+}
+.box-6:hover,.box-5:hover{
+    transform: scale3D(.8,.8,1);
+
+}
+
+footer{
+    margin:auto;
+    max-width: 1200px;
+    background-color: #c3b4a9;
+    font-family: "Open Sans", sans-serif;
+
+
+    display: flex;
+    justify-content: space-around;
+}
+.text-area{
+    display:flex;
+    flex-direction:column;
+    gap:3px;}
+.text-box{
+    resize: none;
+}
